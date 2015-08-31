@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E78045161B93EA26008FE77F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78045151B93EA26008FE77F /* main.m */; };
+		E78045191B93EA26008FE77F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78045181B93EA26008FE77F /* AppDelegate.m */; };
+		E780451C1B93EA26008FE77F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E780451B1B93EA26008FE77F /* ViewController.m */; };
+		E780451F1B93EA26008FE77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E780451D1B93EA26008FE77F /* Main.storyboard */; };
+		E78045211B93EA26008FE77F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78045201B93EA26008FE77F /* Images.xcassets */; };
+		E78045241B93EA26008FE77F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78045221B93EA26008FE77F /* LaunchScreen.xib */; };
+		E78045301B93EA26008FE77F /* SzmLocalAuthCode_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E780452F1B93EA26008FE77F /* SzmLocalAuthCode_ocTests.m */; };
+		E780453A1B93ED70008FE77F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78045391B93ED70008FE77F /* CoreGraphics.framework */; };
+		E780453D1B93ED8F008FE77F /* AuthcodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E780453C1B93ED8F008FE77F /* AuthcodeView.m */; };
+		E78045411B93EE28008FE77F /* AuthCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E780453F1B93EE28008FE77F /* AuthCodeViewController.m */; };
+		E78045421B93EE28008FE77F /* AuthCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78045401B93EE28008FE77F /* AuthCodeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E780452A1B93EA26008FE77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E78045081B93EA26008FE77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E780450F1B93EA26008FE77F;
+			remoteInfo = SzmLocalAuthCode_oc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E78045101B93EA26008FE77F /* SzmLocalAuthCode_oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SzmLocalAuthCode_oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78045141B93EA26008FE77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78045151B93EA26008FE77F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E78045171B93EA26008FE77F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E78045181B93EA26008FE77F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E780451A1B93EA26008FE77F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E780451B1B93EA26008FE77F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E780451E1B93EA26008FE77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E78045201B93EA26008FE77F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E78045231B93EA26008FE77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E78045291B93EA26008FE77F /* SzmLocalAuthCode_ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SzmLocalAuthCode_ocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E780452E1B93EA26008FE77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E780452F1B93EA26008FE77F /* SzmLocalAuthCode_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SzmLocalAuthCode_ocTests.m; sourceTree = "<group>"; };
+		E78045391B93ED70008FE77F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E780453B1B93ED8F008FE77F /* AuthcodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthcodeView.h; sourceTree = "<group>"; };
+		E780453C1B93ED8F008FE77F /* AuthcodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthcodeView.m; sourceTree = "<group>"; };
+		E780453E1B93EE28008FE77F /* AuthCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthCodeViewController.h; sourceTree = "<group>"; };
+		E780453F1B93EE28008FE77F /* AuthCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthCodeViewController.m; sourceTree = "<group>"; };
+		E78045401B93EE28008FE77F /* AuthCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthCodeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E780450D1B93EA26008FE77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E780453A1B93ED70008FE77F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78045261B93EA26008FE77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E78045071B93EA26008FE77F = {
+			isa = PBXGroup;
+			children = (
+				E78045391B93ED70008FE77F /* CoreGraphics.framework */,
+				E78045121B93EA26008FE77F /* SzmLocalAuthCode_oc */,
+				E780452C1B93EA26008FE77F /* SzmLocalAuthCode_ocTests */,
+				E78045111B93EA26008FE77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E78045111B93EA26008FE77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E78045101B93EA26008FE77F /* SzmLocalAuthCode_oc.app */,
+				E78045291B93EA26008FE77F /* SzmLocalAuthCode_ocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E78045121B93EA26008FE77F /* SzmLocalAuthCode_oc */ = {
+			isa = PBXGroup;
+			children = (
+				E78045171B93EA26008FE77F /* AppDelegate.h */,
+				E78045181B93EA26008FE77F /* AppDelegate.m */,
+				E780453E1B93EE28008FE77F /* AuthCodeViewController.h */,
+				E780453F1B93EE28008FE77F /* AuthCodeViewController.m */,
+				E78045401B93EE28008FE77F /* AuthCodeViewController.xib */,
+				E780453B1B93ED8F008FE77F /* AuthcodeView.h */,
+				E780453C1B93ED8F008FE77F /* AuthcodeView.m */,
+				E780451A1B93EA26008FE77F /* ViewController.h */,
+				E780451B1B93EA26008FE77F /* ViewController.m */,
+				E780451D1B93EA26008FE77F /* Main.storyboard */,
+				E78045201B93EA26008FE77F /* Images.xcassets */,
+				E78045221B93EA26008FE77F /* LaunchScreen.xib */,
+				E78045131B93EA26008FE77F /* Supporting Files */,
+			);
+			path = SzmLocalAuthCode_oc;
+			sourceTree = "<group>";
+		};
+		E78045131B93EA26008FE77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E78045141B93EA26008FE77F /* Info.plist */,
+				E78045151B93EA26008FE77F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E780452C1B93EA26008FE77F /* SzmLocalAuthCode_ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				E780452F1B93EA26008FE77F /* SzmLocalAuthCode_ocTests.m */,
+				E780452D1B93EA26008FE77F /* Supporting Files */,
+			);
+			path = SzmLocalAuthCode_ocTests;
+			sourceTree = "<group>";
+		};
+		E780452D1B93EA26008FE77F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E780452E1B93EA26008FE77F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E780450F1B93EA26008FE77F /* SzmLocalAuthCode_oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78045331B93EA26008FE77F /* Build configuration list for PBXNativeTarget "SzmLocalAuthCode_oc" */;
+			buildPhases = (
+				E780450C1B93EA26008FE77F /* Sources */,
+				E780450D1B93EA26008FE77F /* Frameworks */,
+				E780450E1B93EA26008FE77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SzmLocalAuthCode_oc;
+			productName = SzmLocalAuthCode_oc;
+			productReference = E78045101B93EA26008FE77F /* SzmLocalAuthCode_oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E78045281B93EA26008FE77F /* SzmLocalAuthCode_ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E78045361B93EA26008FE77F /* Build configuration list for PBXNativeTarget "SzmLocalAuthCode_ocTests" */;
+			buildPhases = (
+				E78045251B93EA26008FE77F /* Sources */,
+				E78045261B93EA26008FE77F /* Frameworks */,
+				E78045271B93EA26008FE77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E780452B1B93EA26008FE77F /* PBXTargetDependency */,
+			);
+			name = SzmLocalAuthCode_ocTests;
+			productName = SzmLocalAuthCode_ocTests;
+			productReference = E78045291B93EA26008FE77F /* SzmLocalAuthCode_ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E78045081B93EA26008FE77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "宋志明";
+				TargetAttributes = {
+					E780450F1B93EA26008FE77F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E78045281B93EA26008FE77F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E780450F1B93EA26008FE77F;
+					};
+				};
+			};
+			buildConfigurationList = E780450B1B93EA26008FE77F /* Build configuration list for PBXProject "SzmLocalAuthCode_oc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E78045071B93EA26008FE77F;
+			productRefGroup = E78045111B93EA26008FE77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E780450F1B93EA26008FE77F /* SzmLocalAuthCode_oc */,
+				E78045281B93EA26008FE77F /* SzmLocalAuthCode_ocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E780450E1B93EA26008FE77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E780451F1B93EA26008FE77F /* Main.storyboard in Resources */,
+				E78045241B93EA26008FE77F /* LaunchScreen.xib in Resources */,
+				E78045211B93EA26008FE77F /* Images.xcassets in Resources */,
+				E78045421B93EE28008FE77F /* AuthCodeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78045271B93EA26008FE77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E780450C1B93EA26008FE77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E780451C1B93EA26008FE77F /* ViewController.m in Sources */,
+				E780453D1B93ED8F008FE77F /* AuthcodeView.m in Sources */,
+				E78045411B93EE28008FE77F /* AuthCodeViewController.m in Sources */,
+				E78045191B93EA26008FE77F /* AppDelegate.m in Sources */,
+				E78045161B93EA26008FE77F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78045251B93EA26008FE77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78045301B93EA26008FE77F /* SzmLocalAuthCode_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E780452B1B93EA26008FE77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E780450F1B93EA26008FE77F /* SzmLocalAuthCode_oc */;
+			targetProxy = E780452A1B93EA26008FE77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E780451D1B93EA26008FE77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E780451E1B93EA26008FE77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E78045221B93EA26008FE77F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E78045231B93EA26008FE77F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E78045311B93EA26008FE77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E78045321B93EA26008FE77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E78045341B93EA26008FE77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SzmLocalAuthCode_oc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E78045351B93EA26008FE77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SzmLocalAuthCode_oc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E78045371B93EA26008FE77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SzmLocalAuthCode_ocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SzmLocalAuthCode_oc.app/SzmLocalAuthCode_oc";
+			};
+			name = Debug;
+		};
+		E78045381B93EA26008FE77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SzmLocalAuthCode_ocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SzmLocalAuthCode_oc.app/SzmLocalAuthCode_oc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E780450B1B93EA26008FE77F /* Build configuration list for PBXProject "SzmLocalAuthCode_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78045311B93EA26008FE77F /* Debug */,
+				E78045321B93EA26008FE77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E78045331B93EA26008FE77F /* Build configuration list for PBXNativeTarget "SzmLocalAuthCode_oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78045341B93EA26008FE77F /* Debug */,
+				E78045351B93EA26008FE77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E78045361B93EA26008FE77F /* Build configuration list for PBXNativeTarget "SzmLocalAuthCode_ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E78045371B93EA26008FE77F /* Debug */,
+				E78045381B93EA26008FE77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E78045081B93EA26008FE77F /* Project object */;
+}
